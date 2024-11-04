@@ -49,13 +49,13 @@ const products = [
     },
     {
         name: "Sản phẩm 2",
-        description: "Mô tả sản phẩm 2, rất chất lượng và đáng mua",
+        description: "Mô tả sản phẩm 2, chất lượng tốt và giá phải chăng",
         price: 300000,
         image: "https://picsum.photos/id/2/300/300.jpg"
     },
     {
         name: "Sản phẩm 3",
-        description: "Mô tả sản phẩm 3, rất chất lượng và đáng mua",
+        description: "Mô tả sản phẩm 3, sản phẩm cao cấp và nhiều tính năng",
         price: 1000000,
         image: "https://picsum.photos/id/3/300/300.jpg"
     }
