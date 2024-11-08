@@ -10,7 +10,7 @@
 import { ref } from 'vue';
 
 
-let isVisible = ref(true)
+const isVisible = ref(true)
 
 const changeStatus = () => {
     isVisible.value = !isVisible.value;
