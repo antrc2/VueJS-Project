@@ -5,11 +5,13 @@
       <!-- <Bai2Buoi3/> -->
        <!-- <DataBinding/> -->
     <!-- <ConditionalRendering/> -->
-    <IsLogin />
+    <!-- <IsLogin /> -->
+     <AlertForm/>
   </div>
 </template>
 
 <script setup>
+import AlertForm from './components/alertForm.vue';
 import Bai2Buoi3 from './components/Bai2Buoi3.vue';
 import Buoi3 from './components/Buoi3.vue';
 import ConditionalRendering from './components/ConditionalRendering.vue';
