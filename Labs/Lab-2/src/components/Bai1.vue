@@ -17,7 +17,7 @@ const increaseCount = () => {
 }
 
 const decreaseCount = () => {
-    productCount.value--
+    productCount.value--;
 }
 </script>
 
