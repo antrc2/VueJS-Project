@@ -1,9 +1,13 @@
 <template>
   <div>
-     <!-- <Bai1/> -->
-      <!-- <Bai2 /> -->
-       <!-- <Bai3 /> -->
-        <Bai4 />
+    <h1>Bài 1</h1>
+    <Bai1 />
+    <h1>Bài 2</h1>
+    <Bai2 />
+    <h1>Bài 3</h1>
+    <Bai3 />
+    <h1>Bài 4</h1>
+    <Bai4 />
   </div>
 </template>
 
@@ -17,6 +21,4 @@ import Bai4 from './components/Bai4.vue';
 
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
