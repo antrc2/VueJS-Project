@@ -57,3 +57,4 @@ const products = reactive([
         image: "https://picsum.photos/id/3/300/300",
     },
 ]);
+</script>

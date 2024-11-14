@@ -14,11 +14,13 @@
 <script setup>
 import { reactive } from 'vue';
 
-const user = reactive({
+let user = reactive({
     name: "",
     age: null,
     email: "",
 })
+
+
 
 const submitForm = () => {
     if (user.name && user.email){
