@@ -111,4 +111,13 @@ const clearForm = () => {
     isEditing.value = false;
     editingBookId.value
 }
+const deleteBook = (id) => {
+    const newBooks = [];
+    for (let i = 0; i < books.value.length; i++) {
+        if (books.value[i].id !== id) {
+            newBooks.push(books.value[i]);
+        }
+    }
+    books.value = newBooks;
+};
 </script>
