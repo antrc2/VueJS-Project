@@ -66,17 +66,32 @@ const products = reactive([
         imageUrl: "https://picsum.photos/id/3/150/150",
     },
 ]);
-// Tính tổng giá trị hàng tồn kho
+
 const totalStockValue = computed(() => {
-    return products.reduce((total, product) => {
-        return product.inStock ? total + product.price * product.quantity : total;
-    }, 0);
-});
-// Lọc sản phẩm theo danh mục
-const filteredProducts = computed(() => {
-    if (!selectedCategory.value) {
-        return products;
+    let total = 0;
+    for (let i = 0; i < products.length; i++) {
+        const product = products[i];
+        if (product.inStock) {
+            total += product.price * product.quantity;
+        }
     }
-    return products.filter((product) => product.category === selectedCategory.value);
+    return total;
 });
+
+
+const filteredProducts = computed(() => {
+    let filtered = [];
+    if (!selectedCategory.value) {
+        filtered = products;
+    } else {
+        for (let i = 0; i < products.length; i++) {
+            const product = products[i];
+            if (product.category === selectedCategory.value) {
+                filtered.push(product);
+            }
+        }
+    }
+    return filtered;
+});
+
 </script>
