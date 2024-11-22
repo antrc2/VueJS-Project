@@ -1,0 +1,24 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Nguyen Ngoc An",
+      "mssv": 123
+    },
+    {
+      "id": 2,
+      "name": "Nguyen Minh Tuan",
+      "mssv": 1234
+    },
+    {
+      "id": 3,
+      "name": "Tran Thi Bich Ngoc",
+      "mssv": 12345
+    },
+    {
+      "id": 4,
+      "name": "Pham Van Hieu",
+      "mssv": 123456
+    }
+  ]
+}
